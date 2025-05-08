@@ -1,0 +1,81 @@
+body {
+    font-family: poppins;
+    text-align: center;
+    margin: 2em;
+    background-color: #F7CFD8;
+    color: #8E7DBE;
+}
+
+h1 {
+    color: #8E7DBE;
+    font-size: 2rem;
+}
+
+#sentence {
+    font-size: 1.2rem;
+    margin-bottom: 1em;
+    padding: 0 1em;
+}
+
+#result,
+#countdown {
+    margin-top: 1em;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+textarea {
+    width: 90%;
+    max-width: 700px;
+    height: 100px;
+    font-size: 1.1rem;
+    background-color: #F4F8D3;
+    border: 2px solid #8E7DBE;
+    border-radius: 8px;
+    padding: 10px;
+    color: #333;
+    resize: vertical;
+}
+
+textarea:disabled {
+    background-color: #e5e5e5;
+    color: #999;
+}
+
+button {
+    margin-top: 1em;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #A6D6D6;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #8E7DBE;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    #sentence {
+        font-size: 1rem;
+    }
+    textarea {
+        font-size: 1rem;
+        height: 80px;
+    }
+    button {
+        width: 90%;
+        font-size: 1rem;
+    }
+    #result,
+    #countdown {
+        font-size: 1rem;
+    }
+}
